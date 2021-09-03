@@ -1,0 +1,84 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Jul 22 20:24:21 2021
+| Host         : DESKTOP-RHKM5BF running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file project_top_control_sets_placed.rpt
+| Design       : project_top
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    16 |
+| Unused register locations in slices containing registers |    59 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |             213 |           94 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              64 |           20 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------+--------------------------------------+--------------------------+------------------+----------------+
+|          Clock Signal         |             Enable Signal            |     Set/Reset Signal     | Slice Load Count | Bel Load Count |
++-------------------------------+--------------------------------------+--------------------------+------------------+----------------+
+|  sd/ftp/otp/carry             |                                      | EGO1_Switches_Left0_IBUF |                1 |              1 |
+|  EGO1_Clock_IBUF_BUFG         | tm/um/u_uart_send/uart_txd_i_1_n_0   | EGO1_Switches_Left0_IBUF |                1 |              1 |
+|  mv/dtdu/clockDecelerator/CLK |                                      | EGO1_Switches_Left0_IBUF |                1 |              3 |
+|  EGO1_Clock_IBUF_BUFG         | tm/um/u_uart_recv/rx_cnt0            | EGO1_Switches_Left0_IBUF |                1 |              4 |
+|  EGO1_Clock_IBUF_BUFG         | tm/um/u_uart_send/tx_cnt0            | EGO1_Switches_Left0_IBUF |                1 |              4 |
+|  EGO1_Clock_IBUF_BUFG         | tm/um/u_uart_loop/E[0]               | EGO1_Switches_Left0_IBUF |                3 |              6 |
+|  EGO1_Clock_IBUF_BUFG         | tm/um/u_uart_loop/track0_reg[0][0]   | EGO1_Switches_Left0_IBUF |                1 |              6 |
+|  EGO1_Clock_IBUF_BUFG         | tm/um/u_uart_loop/track2_reg[5][0]   | EGO1_Switches_Left0_IBUF |                2 |              6 |
+|  EGO1_Clock_IBUF_BUFG         | tm/um/u_uart_loop/track3_reg[0][0]   | EGO1_Switches_Left0_IBUF |                2 |              6 |
+|  sd/ftp/cd/CLK                |                                      | EGO1_Switches_Left0_IBUF |                4 |              8 |
+|  EGO1_Clock_IBUF_BUFG         | tm/um/u_uart_loop/recv_done_flag     | EGO1_Switches_Left0_IBUF |                3 |              8 |
+|  EGO1_Clock_IBUF_BUFG         | tm/um/u_uart_send/tx_data[7]_i_1_n_0 | EGO1_Switches_Left0_IBUF |                2 |              9 |
+|  sd/ftp/cd/CLK                | sd/ftp/otp/origin_n_0                | EGO1_Switches_Left0_IBUF |                4 |             14 |
+|  sd/u1/CLK                    |                                      | EGO1_Switches_Left0_IBUF |                5 |             15 |
+|  clock_BUFG                   |                                      | EGO1_Switches_Left0_IBUF |               15 |             33 |
+|  EGO1_Clock_IBUF_BUFG         |                                      | EGO1_Switches_Left0_IBUF |               68 |            153 |
++-------------------------------+--------------------------------------+--------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     2 |
+| 3      |                     1 |
+| 4      |                     2 |
+| 6      |                     4 |
+| 8      |                     2 |
+| 9      |                     1 |
+| 14     |                     1 |
+| 15     |                     1 |
+| 16+    |                     2 |
++--------+-----------------------+
+
+

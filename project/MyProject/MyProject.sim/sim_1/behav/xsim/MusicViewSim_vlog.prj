@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../src/project_top.i/timer_service.i/ClockDivider.v" \
+"../../../../src/project_top.i/MusicView.i/music_decoder.v" \
+"../../../../src/project_top.i/MusicView.i/view_decoder.v" \
+"../../../../src/project_top.i/MusicView.v" \
+"../../../../src/project_top.v" \
+"../../../../src/project_top.i/song_driver.v" \
+"../../../../src/project_top.i/track_manager.v" \
+"../../../../src/project_top.i/song_driver.i/one_track_player.v" \
+"../../../../src/project_top.i/timer_service.i/ClockDecelerator.v" \
+"../../../../src/project_top.i/uart_manager.v" \
+"../../../../src/project_top.i/uart_manager.i/uart_send.v" \
+"../../../../src/project_top.i/uart_manager.i/uart_recv.v" \
+"../../../../src/project_top.i/uart_manager.i/uart_loop.v" \
+"../../../../src/project_top.i/MusicView.i/DigitalTubeDriver_ultimate.v" \
+"../../../../src/project_top.i/MusicView.i/light_decoder.v" \
+"../../../../src/project_top.i/MusicView.i/light_decoder_one_track.v" \
+"../../../../src/project_top.i/song_driver.i/four_track_player.v" \
+"../../../../test/project_top_sim.v" \
+"../../../../test/project_top.i/song_driver_sim.v" \
+"../../../../test/project_top.i/song_driver.i/one_track_player_sim.v" \
+"../../../../test/project_top.i/MusicViewSim.v" \
+"../../../../test/project_top.i/MusicView_for_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

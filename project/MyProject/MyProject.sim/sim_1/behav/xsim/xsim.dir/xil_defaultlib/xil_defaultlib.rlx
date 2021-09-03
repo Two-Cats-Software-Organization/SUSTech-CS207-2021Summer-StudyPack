@@ -1,0 +1,27 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/MyProject.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+,,,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/light_decoder.v,,DigitalTubeDriver_ultimate,,,,,,,,
+,,,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/light_decoder_one_track.v,,light_decoder,,,,,,,,
+,,,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/song_driver.i/four_track_player.v,,light_decoder_one_track,,,,,,,,
+D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/music_decoder.v,1626580548,verilog,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/view_decoder.v,,music_decoder,,,,,,,,
+D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/view_decoder.v,1626595831,verilog,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.v,,view_decoder,,,,,,,,
+D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.v,1626522032,verilog,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.v,,MusicView,,,,,,,,
+,,,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/test/project_top_sim.v,,four_track_player,,,,,,,,
+D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/song_driver.i/one_track_player.v,1626528345,verilog,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/timer_service.i/ClockDecelerator.v,,one_track_player,,,,,,,,
+D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/song_driver.v,1626526732,verilog,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/track_manager.v,,song_driver,,,,,,,,
+,,,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.v,,ClockDecelerator,,,,,,,,
+D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/timer_service.i/ClockDivider.v,1626579608,verilog,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/music_decoder.v,,ClockDivider,,,,,,,,
+D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/track_manager.v,1626526417,verilog,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/song_driver.i/one_track_player.v,,track_manager,,,,,,,,
+,,,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/DigitalTubeDriver_ultimate.v,,uart_loop,,,,,,,,
+,,,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.i/uart_loop.v,,uart_recv,,,,,,,,
+,,,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.i/uart_recv.v,,uart_send,,,,,,,,
+,,,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.i/uart_send.v,,uart_manager,,,,,,,,
+D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.v,1626492340,verilog,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/song_driver.v,,project_top,,,,,,,,
+,,,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/test/project_top.i/MusicView_for_sim.v,,MusicViewSim,,,,,,,,
+,,,,,,MusicView_for_sim,,,,,,,,
+,,,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/test/project_top.i/MusicViewSim.v,,one_track_player_sim,,,,,,,,
+,,,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/test/project_top.i/song_driver.i/one_track_player_sim.v,,,,,,,,,,
+,,,,D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/test/project_top.i/song_driver_sim.v,,project_top_sim,,,,,,,,

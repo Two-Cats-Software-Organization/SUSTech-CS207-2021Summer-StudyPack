@@ -1,0 +1,42 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../src/project_top.i/timer_service.i/ClockDivider.v" \
+"../../../../src/project_top.i/MusicView.i/music_decoder.v" \
+"../../../../src/project_top.i/MusicView.i/view_decoder.v" \
+"../../../../src/project_top.i/MusicView.v" \
+"../../../../src/project_top.v" \
+"../../../../src/project_top.i/uart_manager.i/tx_band_gen.v" \
+"../../../../src/project_top.i/uart_manager.i/rx_band_gen.v" \
+"../../../../src/project_top.i/uart_manager.i/H2L_detect.v" \
+"../../../../src/project_top.i/uart_manager.i/delay_10ms.v" \
+"../../../../src/project_top.i/uart_manager.i/rx_ctl.v" \
+"../../../../src/project_top.i/song_driver.v" \
+"../../../../src/project_top.i/uart_manager.i/btn_debounce.v" \
+"../../../../src/project_top.i/uart_manager.i/number_encode.v" \
+"../../../../src/project_top.i/uart_manager.i/tx_ctl.v" \
+"../../../../src/project_top.i/track_manager.v" \
+"../../../../src/project_top.i/uart_manager.i/out_ctl.v" \
+"../../../../src/project_top.i/song_driver.i/one_track_player.v" \
+"../../../../src/project_top.i/uart_manager.i/uart_top.v" \
+"../../../../src/project_top.i/timer_service.i/ClockDecelerator.v" \
+"../../../../src/project_top.i/uart_manager.i/data_show.v" \
+"../../../../src/project_top.i/uart_manager.i/L2H_detect.v" \
+"../../../../src/project_top.i/uart_manager.i/code_ctl.v" \
+"../../../../src/project_top.i/uart_manager.v" \
+"../../../../src/project_top.i/uart_manager.i/scan_data.v" \
+"../../../../src/project_top.i/uart_manager.i/tx_top.v" \
+"../../../../src/project_top.i/uart_manager.i/input_signal_processing.v" \
+"../../../../src/project_top.i/uart_manager.i/rx_top.v" \
+"../../../../src/project_top.i/uart_manager.i/reverse_detect.v" \
+"../../../../src/project_top.i/uart_manager.i/meta_harden.v" \
+"../../../../test/project_top_sim.v" \
+"../../../../test/testParameter.v" \
+"../../../../test/testTrack.v" \
+"../../../../test/project_top.i/song_driver_sim.v" \
+"../../../../test/project_top.i/song_driver.i/one_track_player_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

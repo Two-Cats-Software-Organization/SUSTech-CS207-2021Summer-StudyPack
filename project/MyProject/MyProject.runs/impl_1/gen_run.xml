@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1626956584">
+  <File Type="ROUTE-PWR" Name="project_top_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="project_top.tcl"/>
+  <File Type="PWROPT-DCP" Name="project_top_pwropt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="project_top_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="project_top_reports.tcl"/>
+  <File Type="BG-DRC" Name="project_top.drc"/>
+  <File Type="OPT-HWDEF" Name="project_top.hwdef"/>
+  <File Type="OPT-DCP" Name="project_top_opt.dcp"/>
+  <File Type="OPT-DRC" Name="project_top_drc_opted.rpt"/>
+  <File Type="PLACE-DCP" Name="project_top_placed.dcp"/>
+  <File Type="PLACE-IO" Name="project_top_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="project_top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="project_top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="project_top_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="project_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="project_top_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="project_top_physopt.dcp"/>
+  <File Type="BG-BIT" Name="project_top.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="project_top_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="project_top_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="project_top_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="project_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="project_top_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="project_top_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="project_top.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="project_top_methodology_drc_routed.rpt"/>
+  <File Type="BG-BGN" Name="project_top.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="project_top_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="project_top.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="project_top_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="project_top.bin"/>
+  <File Type="ROUTE-PWR-RPX" Name="project_top_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="project_top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="project_top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="project_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="project_top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="project_top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="project_top_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="project_top.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="project_top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="project_top_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="project_top.nky"/>
+  <File Type="BITSTR-BMM" Name="project_top_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="project_top.mmi"/>
+  <File Type="BITSTR-LTX" Name="project_top.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="project_top.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/src/project_top.i/timer_service.i/ClockDivider.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/project_top.i/MusicView.i/music_decoder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/project_top.i/MusicView.i/view_decoder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/project_top.i/MusicView.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/project_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/project_top.i/song_driver.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/project_top.i/track_manager.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/project_top.i/song_driver.i/one_track_player.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/project_top.i/timer_service.i/ClockDecelerator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/project_top.i/uart_manager.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/project_top.i/uart_manager.i/uart_send.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/project_top.i/uart_manager.i/uart_recv.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/project_top.i/uart_manager.i/uart_loop.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/project_top.i/MusicView.i/DigitalTubeDriver_ultimate.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/project_top.i/MusicView.i/light_decoder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/project_top.i/MusicView.i/light_decoder_one_track.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/project_top.i/song_driver.i/four_track_player.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="project_top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/config/input/clock.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/config/input/uart.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/config/output/audio.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/config/output/views.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

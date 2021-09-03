@@ -1,0 +1,543 @@
+
+*** Running vivado
+    with args -log project_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source project_top.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source project_top.tcl -notrace
+Command: synth_design -top project_top -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 28004 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 330.273 ; gain = 99.980
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'project_top' [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.v:2]
+INFO: [Synth 8-638] synthesizing module 'track_manager' [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/track_manager.v:1]
+INFO: [Synth 8-638] synthesizing module 'uart_manager' [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.v:26]
+	Parameter CLK_FREQ bound to: 100000000 - type: integer 
+	Parameter UART_BPS bound to: 9600 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'uart_recv' [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.i/uart_recv.v:23]
+	Parameter CLK_FREQ bound to: 100000000 - type: integer 
+	Parameter UART_BPS bound to: 9600 - type: integer 
+	Parameter BPS_CNT bound to: 10416 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart_recv' (1#1) [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.i/uart_recv.v:23]
+INFO: [Synth 8-638] synthesizing module 'uart_send' [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.i/uart_send.v:23]
+	Parameter CLK_FREQ bound to: 100000000 - type: integer 
+	Parameter UART_BPS bound to: 9600 - type: integer 
+	Parameter BPS_CNT bound to: 10416 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart_send' (2#1) [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.i/uart_send.v:23]
+INFO: [Synth 8-638] synthesizing module 'uart_loop' [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.i/uart_loop.v:23]
+INFO: [Synth 8-256] done synthesizing module 'uart_loop' (3#1) [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.i/uart_loop.v:23]
+INFO: [Synth 8-256] done synthesizing module 'uart_manager' (4#1) [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.v:26]
+INFO: [Synth 8-256] done synthesizing module 'track_manager' (5#1) [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/track_manager.v:1]
+INFO: [Synth 8-638] synthesizing module 'song_driver' [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/song_driver.v:2]
+INFO: [Synth 8-638] synthesizing module 'ClockDivider' [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/timer_service.i/ClockDivider.v:1]
+	Parameter dividedBy bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ClockDivider' (6#1) [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/timer_service.i/ClockDivider.v:1]
+INFO: [Synth 8-638] synthesizing module 'ClockDecelerator' [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/timer_service.i/ClockDecelerator.v:1]
+	Parameter frequency bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ClockDecelerator' (7#1) [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/timer_service.i/ClockDecelerator.v:1]
+INFO: [Synth 8-638] synthesizing module 'four_track_player' [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/song_driver.i/four_track_player.v:1]
+INFO: [Synth 8-638] synthesizing module 'one_track_player' [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/song_driver.i/one_track_player.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/song_driver.i/one_track_player.v:40]
+INFO: [Synth 8-256] done synthesizing module 'one_track_player' (8#1) [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/song_driver.i/one_track_player.v:1]
+INFO: [Synth 8-256] done synthesizing module 'four_track_player' (9#1) [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/song_driver.i/four_track_player.v:1]
+INFO: [Synth 8-256] done synthesizing module 'song_driver' (10#1) [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/song_driver.v:2]
+INFO: [Synth 8-638] synthesizing module 'MusicView' [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.v:2]
+INFO: [Synth 8-638] synthesizing module 'music_decoder' [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/music_decoder.v:1]
+INFO: [Synth 8-256] done synthesizing module 'music_decoder' (11#1) [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/music_decoder.v:1]
+INFO: [Synth 8-638] synthesizing module 'view_decoder' [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/view_decoder.v:1]
+INFO: [Synth 8-226] default block is never used [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/view_decoder.v:6]
+INFO: [Synth 8-256] done synthesizing module 'view_decoder' (12#1) [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/view_decoder.v:1]
+INFO: [Synth 8-638] synthesizing module 'DigitalTubeDriver_ultimate' [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/DigitalTubeDriver_ultimate.v:1]
+INFO: [Synth 8-638] synthesizing module 'ClockDecelerator__parameterized0' [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/timer_service.i/ClockDecelerator.v:1]
+	Parameter frequency bound to: 500 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ClockDecelerator__parameterized0' (12#1) [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/timer_service.i/ClockDecelerator.v:1]
+INFO: [Synth 8-226] default block is never used [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/DigitalTubeDriver_ultimate.v:39]
+INFO: [Synth 8-226] default block is never used [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/DigitalTubeDriver_ultimate.v:52]
+WARNING: [Synth 8-567] referenced signal 'text7' should be on the sensitivity list [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/DigitalTubeDriver_ultimate.v:51]
+WARNING: [Synth 8-567] referenced signal 'text6' should be on the sensitivity list [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/DigitalTubeDriver_ultimate.v:51]
+WARNING: [Synth 8-567] referenced signal 'text5' should be on the sensitivity list [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/DigitalTubeDriver_ultimate.v:51]
+WARNING: [Synth 8-567] referenced signal 'text4' should be on the sensitivity list [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/DigitalTubeDriver_ultimate.v:51]
+WARNING: [Synth 8-567] referenced signal 'text3' should be on the sensitivity list [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/DigitalTubeDriver_ultimate.v:51]
+WARNING: [Synth 8-567] referenced signal 'text2' should be on the sensitivity list [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/DigitalTubeDriver_ultimate.v:51]
+WARNING: [Synth 8-567] referenced signal 'text1' should be on the sensitivity list [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/DigitalTubeDriver_ultimate.v:51]
+WARNING: [Synth 8-567] referenced signal 'text0' should be on the sensitivity list [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/DigitalTubeDriver_ultimate.v:51]
+INFO: [Synth 8-256] done synthesizing module 'DigitalTubeDriver_ultimate' (13#1) [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/DigitalTubeDriver_ultimate.v:1]
+INFO: [Synth 8-638] synthesizing module 'light_decoder' [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/light_decoder.v:1]
+INFO: [Synth 8-638] synthesizing module 'light_decoder_one_track' [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/light_decoder_one_track.v:1]
+INFO: [Synth 8-256] done synthesizing module 'light_decoder_one_track' (14#1) [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/light_decoder_one_track.v:1]
+INFO: [Synth 8-256] done synthesizing module 'light_decoder' (15#1) [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/light_decoder.v:1]
+INFO: [Synth 8-256] done synthesizing module 'MusicView' (16#1) [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.v:2]
+INFO: [Synth 8-256] done synthesizing module 'project_top' (17#1) [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.v:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 382.605 ; gain = 152.312
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 382.605 ; gain = 152.312
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/config/input/clock.xdc]
+Finished Parsing XDC File [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/config/input/clock.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/config/input/clock.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/project_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/project_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/config/input/uart.xdc]
+CRITICAL WARNING: [Designutils 20-1307] Command '/////////////////////////////串口/////////////////////////////////////////////' is not supported in the xdc constraint file. [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/config/input/uart.xdc:1]
+Finished Parsing XDC File [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/config/input/uart.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/config/input/uart.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/project_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/project_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/config/output/audio.xdc]
+CRITICAL WARNING: [Designutils 20-1307] Command '///////////////////////////////音频接口////////////////////////////////////////' is not supported in the xdc constraint file. [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/config/output/audio.xdc:1]
+Finished Parsing XDC File [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/config/output/audio.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/config/output/audio.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/project_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/project_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/config/output/views.xdc]
+Finished Parsing XDC File [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/config/output/views.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/config/output/views.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/project_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/project_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 712.688 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 712.688 ; gain = 482.395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 712.688 ; gain = 482.395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 712.688 ; gain = 482.395
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "rx_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "uart_done" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element rx_cnt_reg was removed.  [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.i/uart_recv.v:98]
+INFO: [Synth 8-5546] ROM "tx_cnt" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element tx_cnt_reg was removed.  [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.i/uart_send.v:108]
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clock_divided" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clock_delayed" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "carry" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "music_view_code_left" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "music_view_code_right" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clock_delayed" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 712.688 ; gain = 482.395
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 28    
+	   2 Input     14 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               16 Bit    Registers := 2     
+	               14 Bit    Registers := 2     
+	                8 Bit    Registers := 4     
+	                6 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 18    
++---Multipliers : 
+	                 3x32  Multipliers := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   8 Input     16 Bit        Muxes := 4     
+	   2 Input     16 Bit        Muxes := 8     
+	   2 Input     14 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 4     
+	   8 Input      8 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 18    
+	  13 Input      4 Bit        Muxes := 8     
+	   2 Input      3 Bit        Muxes := 1     
+	  13 Input      3 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 11    
+	   3 Input      1 Bit        Muxes := 2     
+	  12 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+	  38 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module uart_recv 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+Module uart_send 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	  12 Input      1 Bit        Muxes := 1     
+Module uart_loop 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module track_manager 
+Detailed RTL Component Info : 
++---Registers : 
+	                6 Bit    Registers := 4     
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 4     
+Module ClockDivider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module ClockDecelerator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module one_track_player 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 1     
++---Registers : 
+	               14 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 1     
+	  38 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module four_track_player 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      6 Bit        Muxes := 1     
+Module music_decoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 4     
+	  13 Input      4 Bit        Muxes := 2     
+Module ClockDecelerator__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module DigitalTubeDriver_ultimate 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+Module light_decoder_one_track 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 6     
++---Multipliers : 
+	                 3x32  Multipliers := 1     
++---Muxes : 
+	   8 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 2     
+	  13 Input      3 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "sd/u1/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "sd/u1/clock_divided" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "sd/u2/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "sd/u2/clock_delayed" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "sd/ftp/cd/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "sd/ftp/cd/clock_divided" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "sd/ftp/otp/carry" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "mv/dtdu/clockDecelerator/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "mv/dtdu/clockDecelerator/clock_delayed" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element tm/um/u_uart_recv/rx_cnt_reg was removed.  [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.i/uart_recv.v:98]
+WARNING: [Synth 8-6014] Unused sequential element tm/um/u_uart_send/tx_cnt_reg was removed.  [D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.i/uart_send.v:108]
+WARNING: [Synth 8-3917] design project_top has port EGO1_Audio_SD driven by constant 1
+INFO: [Synth 8-3886] merging instance 'tm/um/u_uart_recv/clk_cnt_reg[14]' (FDC) to 'tm/um/u_uart_send/clk_cnt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'tm/um/u_uart_recv/clk_cnt_reg[15]' (FDC) to 'tm/um/u_uart_send/clk_cnt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'tm/um/u_uart_send/clk_cnt_reg[14]' (FDC) to 'tm/um/u_uart_send/clk_cnt_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\tm/um/u_uart_send/clk_cnt_reg[15] )
+WARNING: [Synth 8-3332] Sequential element (tm/um/u_uart_send/clk_cnt_reg[15]) is unused and will be removed from module project_top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 712.688 ; gain = 482.395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-----------------+-------------------+---------------+----------------+
+|Module Name      | RTL Object        | Depth x Width | Implemented As | 
++-----------------+-------------------+---------------+----------------+
+|one_track_player | origin            | 64x14         | LUT            | 
+|project_top      | sd/ftp/otp/origin | 64x14         | LUT            | 
++-----------------+-------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 732.465 ; gain = 502.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 733.832 ; gain = 503.539
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 798.648 ; gain = 568.355
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 798.648 ; gain = 568.355
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 798.648 ; gain = 568.355
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 798.648 ; gain = 568.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 798.648 ; gain = 568.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 798.648 ; gain = 568.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 798.648 ; gain = 568.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |   276|
+|3     |LUT1   |   119|
+|4     |LUT2   |    63|
+|5     |LUT3   |    57|
+|6     |LUT4   |   446|
+|7     |LUT5   |   235|
+|8     |LUT6   |   535|
+|9     |FDCE   |   262|
+|10    |FDPE   |    15|
+|11    |IBUF   |     3|
+|12    |OBUF   |    43|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------------------+---------------------------------+------+
+|      |Instance               |Module                           |Cells |
++------+-----------------------+---------------------------------+------+
+|1     |top                    |                                 |  2056|
+|2     |  mv                   |MusicView                        |   109|
+|3     |    dtdu               |DigitalTubeDriver_ultimate       |   109|
+|4     |      clockDecelerator |ClockDecelerator__parameterized0 |    82|
+|5     |  sd                   |song_driver                      |   324|
+|6     |    ftp                |four_track_player                |   160|
+|7     |      cd               |ClockDivider_0                   |    82|
+|8     |      otp              |one_track_player                 |    68|
+|9     |    u1                 |ClockDivider                     |    82|
+|10    |    u2                 |ClockDecelerator                 |    82|
+|11    |  tm                   |track_manager                    |  1073|
+|12    |    um                 |uart_manager                     |   195|
+|13    |      u_uart_loop      |uart_loop                        |    19|
+|14    |      u_uart_recv      |uart_recv                        |    97|
+|15    |      u_uart_send      |uart_send                        |    79|
++------+-----------------------+---------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 798.648 ; gain = 568.355
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 798.648 ; gain = 238.273
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 798.648 ; gain = 568.355
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 279 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+80 Infos, 14 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 798.648 ; gain = 572.562
+INFO: [Common 17-1381] The checkpoint 'D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/MyProject.runs/synth_1/project_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file project_top_utilization_synth.rpt -pb project_top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 798.648 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 22 20:23:46 2021...

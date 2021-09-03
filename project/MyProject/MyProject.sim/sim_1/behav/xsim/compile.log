@@ -1,0 +1,43 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/timer_service.i/ClockDivider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClockDivider
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/music_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module music_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/view_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module view_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MusicView
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module project_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/song_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module song_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/track_manager.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module track_manager
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/song_driver.i/one_track_player.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_track_player
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/timer_service.i/ClockDecelerator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClockDecelerator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_manager
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.i/uart_send.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_send
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.i/uart_recv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_recv
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/uart_manager.i/uart_loop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_loop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/DigitalTubeDriver_ultimate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DigitalTubeDriver_ultimate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/light_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/MusicView.i/light_decoder_one_track.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_decoder_one_track
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/src/project_top.i/song_driver.i/four_track_player.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module four_track_player
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/test/project_top_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module project_top_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/test/project_top.i/song_driver_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/test/project_top.i/song_driver.i/one_track_player_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_track_player_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/test/project_top.i/MusicViewSim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MusicViewSim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EnglishStandardPath/Practice_File/P_DigitalLogic_H/MyProject/test/project_top.i/MusicView_for_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MusicView_for_sim
